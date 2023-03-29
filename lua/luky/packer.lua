@@ -50,4 +50,6 @@ return require('packer').startup(function(use)
 		}
 	} -- lsp
 
+    use("terrortylor/nvim-comment") -- nvim-comment
+
 end)

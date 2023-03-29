@@ -19,3 +19,6 @@ vim.keymap.set("n", "<leader>p", '"+p')
 -- undotree
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
+-- nvim-comment
+vim.keymap.set("v", "<leader>c", vim.cmd.CommentToggle)
+vim.keymap.set("n", "<leader>c", vim.cmd.CommentToggle)
