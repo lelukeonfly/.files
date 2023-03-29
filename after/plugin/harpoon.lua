@@ -7,5 +7,5 @@ vim.keymap.set("n", "<leader>e", ui.toggle_quick_menu) -- lists files in harpoon
 vim.keymap.set("n", "<C-h>", function() ui.nav_file(1) end) -- use first file
 vim.keymap.set("n", "<C-t>", function() ui.nav_file(2) end) -- use second file
 vim.keymap.set("n", "<C-n>", function() ui.nav_file(3) end) -- use third file
-vim.keymap.set("n", "<C-s>", function() ui.nav_file(3) end) -- use fourth file
+vim.keymap.set("n", "<C-s>", function() ui.nav_file(4) end) -- use fourth file
 
