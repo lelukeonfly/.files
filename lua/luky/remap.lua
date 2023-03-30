@@ -14,11 +14,12 @@ vim.keymap.set("v", "<", "<gv")
 
 -- copy paste to system clipboard
 vim.keymap.set("v", "<leader>y", '"+y')
+vim.keymap.set("v", "<leader>p", '"+p')
 vim.keymap.set("n", "<leader>p", '"+p')
 
 -- undotree
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
 -- nvim-comment
-vim.keymap.set("v", "<leader>c", vim.cmd.CommentToggle)
+vim.api.nvim_set_keymap('v', '<leader>c', ':CommentToggle<CR>gv', { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>c", vim.cmd.CommentToggle)
